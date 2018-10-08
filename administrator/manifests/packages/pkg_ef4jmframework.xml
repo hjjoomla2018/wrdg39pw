@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+<name>EF4 Joomla Monster Framework Package</name>
+<packagename>ef4jmframework</packagename>
+<creationDate>29/05/2017</creationDate>
+<author>DJ-Extensions.com LTD</author>
+<copyright>Copyright (C) 2010-2017 DJ-Extensions.com LTD, All rights reserved.</copyright>
+<license> http://www.gnu.org/licenses GNU/GPL</license>
+<authorEmail>contact@dj-extensions.com</authorEmail>
+<authorUrl>http://dj-extensions.com</authorUrl>
+<version>N/A</version>
+<url>http://dj-extensions.com</url>
+<packager></packager>
+<packagerurl></packagerurl>
+<description>EF4 Joomla Monster Framework Plugin + DJ-jQueryMonster Plugin</description>
+<scriptfile>installation.php</scriptfile>
+<files>
+	<file type="plugin" client="site" id="djjquerymonster" group="system">plg_system_djjquerymonster.zip</file>
+	<file type="plugin" client="site" id="ef4_jmframework" group="system">plg_system_ef4_jmframework.zip</file>
+</files>
+</extension>

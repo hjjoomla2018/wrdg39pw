@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `#__djrevs_comments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `review_id` int(11) NOT NULL,
+  `object_type` varchar(50) NOT NULL,
+  `object_id` int(11) NOT NULL,
+  `user_name` varchar(255) NOT NULL,
+  `user_login` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `ip` varchar(40) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `message` text,
+  `published` tinyint(3) NOT NULL DEFAULT '0',
+  `created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `created_by` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `review_id` (`review_id`),
+  KEY `object_type` (`object_type`),
+  KEY `object_id` (`object_id`),
+  KEY `created_by` (`created_by`)
+) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
