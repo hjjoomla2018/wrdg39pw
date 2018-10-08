@@ -1,0 +1,195 @@
+#dj-slideshow15m267 {
+	margin: 10px auto;
+	border: 0px; }
+#dj-slideshow15m267 .dj-slideshow-in {
+	margin: 0 auto;
+	max-width: 455px;
+	position: relative;
+	box-shadow: 0 0 5px #666;
+}
+#dj-slideshow15m267 .dj-slides {
+	opacity: 0;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+#dj-slideshow15m267 .dj-slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#dj-slideshow15m267 .dj-slide.dj-active {
+	position: relative;
+}
+#dj-slideshow15m267 .dj-slide-in > a:hover {
+	background: none;
+}
+#dj-slideshow15m267 .dj-slide-image {
+	width: 100%;
+		-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#dj-slideshow15m267 .dj-slide img.dj-image, 
+#dj-slideshow15m267 .dj-slide a:hover img.dj-image {
+	max-width: 100%;
+	height: auto;
+}
+#dj-slideshow15m267 .dj-slide-in .video-icon {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	background: url(/fishmarket/components/com_djmediatools/layouts/slideshow/images/video.png) center center no-repeat;
+}
+
+#dj-slideshow15m267 .dj-slide-desc {
+			position: absolute;
+		bottom: 0%;
+		left: 0%;
+		width: 49.450549450549%;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+#dj-slideshow15m267 .dj-slide-desc-in {
+	position: relative;
+	height: 100%;
+}
+#dj-slideshow15m267 .dj-slide-desc-bg {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+}
+#dj-slideshow15m267 .dj-slide-desc-text {
+	position: relative;
+	color: #ccc;
+	padding: 10px;
+	text-align: left;
+}
+#dj-slideshow15m267 .dj-slide-desc-text p {
+	display: block;
+	padding: 0;
+}
+#dj-slideshow15m267 .dj-slide-desc-text a {
+	color: #f5f5f5;
+}
+#dj-slideshow15m267 .dj-slide-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.1;
+	color: #f5f5f5;
+	margin-bottom: 5px;
+}
+#dj-slideshow15m267 .dj-slide-title a {
+	background: none;
+}
+#dj-slideshow15m267 .dj-readmore-wrapper {
+	padding: 5px 0;
+	text-align: right;
+}
+#dj-slideshow15m267 a.dj-readmore {
+	font-size: 1.1em;
+}
+#dj-slideshow15m267 .dj-extra {
+	float: right;
+	margin: 0 0 5px 20px;
+}
+
+#dj-slideshow15m267 .dj-navigation {
+	position: absolute;
+	top: 45.454545454545%;
+	width: 100%;
+	z-index: 10;
+}
+#dj-slideshow15m267 .dj-navigation-in {
+	position: relative;
+	margin: 0 20px;
+}
+#dj-slideshow15m267 .dj-navigation .dj-prev {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#dj-slideshow15m267 .dj-navigation .dj-next {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+#dj-slideshow15m267 .dj-navigation .dj-play, 
+#dj-slideshow15m267 .dj-navigation .dj-pause {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+}
+
+#dj-slideshow15m267 .dj-indicators {
+	}
+#dj-slideshow15m267 .dj-indicators-in {
+	text-align: center;
+	padding: 0 10px;
+}
+#dj-slideshow15m267 .dj-load-button {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: #222;
+	border: 2px solid #ccc;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	opacity: 0.5;
+}
+#dj-slideshow15m267 .dj-load-button:hover,
+#dj-slideshow15m267 .dj-load-button-active {
+	opacity: 1;
+}
+#dj-slideshow15m267 .dj-load-button .dj-key {
+	display: block;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+
+#dj-slideshow15m267 .dj-loader {
+	position: absolute;
+			top: 10px;
+		left: 10px;
+		z-index: 20;
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(/fishmarket/components/com_djmediatools/layouts/slideshow/images/ajax-loader.gif) left top no-repeat;
+	opacity: 0.8;
+}
+
+#dj-slideshow15m267 .showOnMouseOver {
+	opacity: 0;
+	-webkit-transition: opacity 200ms ease 50ms;
+	transition: opacity 200ms ease 50ms;
+}
+#dj-slideshow15m267:hover .showOnMouseOver,
+#dj-slideshow15m267.focused .showOnMouseOver {
+	opacity: 0.5;
+}
+#dj-slideshow15m267:hover .showOnMouseOver:hover,
+#dj-slideshow15m267.focused .showOnMouseOver:focus {
+	opacity: 1;
+}
