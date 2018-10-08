@@ -1,0 +1,6 @@
+/configuration.php
+/administrator/cache/*
+/templates/jm-joomclassifieds-ef4/cache/*
+/cache/*
+/tmp/*
+/logs/*
